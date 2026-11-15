@@ -1,0 +1,18 @@
+# Build output
+StatsPanel.app/
+*.o
+tools/make_icon
+
+# macOS
+.DS_Store
+._*
+
+# Local debug
+/tmp/stats_panel_debug.log
+
+# Local-only project notes (never commit)
+AGENTS.md
+soft-memory/
+.idea/
+.vscode/
+*.swp
